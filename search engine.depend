@@ -1,0 +1,73 @@
+# depslib dependency file v1.0
+1650651647 source:/home/salvatore/Desktop/MP C++/search engine/Search.cpp
+	<iostream>
+	<string.h>
+
+1650742601 source:/home/salvatore/Desktop/MP C++/search engine/main.cpp
+	<iostream>
+	<fstream>
+	<string.h>
+	<vector>
+	<algorithm>
+	"LecteurFichier.h"
+	"TraiteurTypique.h"
+	"AnalyseurBinaire.h"
+	"IndexeVector.h"
+	"LecteurString.h"
+	"Moteurderecherche.h"
+
+1650652955 /home/salvatore/Desktop/MP C++/search engine/Lecteur.h
+	<fstream>
+	<iostream>
+	<vector>
+
+1650741357 /home/salvatore/Desktop/MP C++/search engine/LecteurFichier.h
+	"Lecteur.h"
+
+1650741725 /home/salvatore/Desktop/MP C++/search engine/TraiteurTypique.h
+	"Traiteur.h"
+	<algorithm>
+	<fstream>
+	<iostream>
+	<vector>
+	"LecteurFichier.h"
+
+1650288064 /home/salvatore/Desktop/MP C++/search engine/Traiteur.h
+
+1650741715 /home/salvatore/Desktop/MP C++/search engine/AnalyseurBinaire.h
+	"Analyseur.h"
+	"StatBinary.h"
+	<string.h>
+
+1650731975 /home/salvatore/Desktop/MP C++/search engine/Analyseur.h
+	"StatBinary.h"
+
+1650730665 /home/salvatore/Desktop/MP C++/search engine/Stat.h
+
+1650730665 /home/salvatore/Desktop/MP C++/search engine/StatBinary.h
+
+1650740045 /home/salvatore/Desktop/MP C++/search engine/IndexeVector.h
+	"Indexe.h"
+	"LecteurFichier.h"
+	"TraiteurTypique.h"
+	"AnalyseurBinaire.h"
+	"StatBinary.h"
+
+1650739832 /home/salvatore/Desktop/MP C++/search engine/Indexe.h
+
+1650741706 /home/salvatore/Desktop/MP C++/search engine/LecteurString.h
+	"Lecteur.h"
+
+1650742880 /home/salvatore/Desktop/MP C++/search engine/Moteurderecherche.h
+	"Indexe.h"
+	"LecteurString.h"
+	"TraiteurTypique.h"
+	"StatBinary.h"
+	"OrdonnanceurBinaire.h"
+
+1650741190 /home/salvatore/Desktop/MP C++/search engine/OrdonnanceurBinaire.h
+	"Ordonnanceur.h"
+
+1650741190 /home/salvatore/Desktop/MP C++/search engine/Ordonnanceur.h
+	"StatBinary.h"
+

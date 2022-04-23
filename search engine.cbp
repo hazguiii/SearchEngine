@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="search engine" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/search engine" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/search engine" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Analyseur.h" />
+		<Unit filename="AnalyseurBinaire.h" />
+		<Unit filename="Indexe.h" />
+		<Unit filename="IndexeVector.h" />
+		<Unit filename="Lecteur.h" />
+		<Unit filename="LecteurFichier.h" />
+		<Unit filename="LecteurString.h" />
+		<Unit filename="Moteurderecherche.h" />
+		<Unit filename="Ordonnanceur.h" />
+		<Unit filename="OrdonnanceurBinaire.h" />
+		<Unit filename="StatBinary.h" />
+		<Unit filename="Traiteur.h" />
+		<Unit filename="TraiteurTypique.h" />
+		<Unit filename="main.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
